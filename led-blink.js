@@ -4,7 +4,7 @@ rpio.open(11, rpio.OUTPUT);
 
 function blink() {
     rpio.write(11, rpio.HIGH);
-    settimeout(function ledOff() {
+    setTimeout(function ledOff() {
         rpio.write(11, rpio.LOW);
     }, 50);
 }
