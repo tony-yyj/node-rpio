@@ -1,0 +1,22 @@
+{
+  "name": "node-rpio",
+  "version": "1.0.0",
+  "description": "练习nodejs的rpio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-yyj/node-rpio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony-yyj/node-rpio/issues"
+  },
+  "homepage": "https://github.com/tony-yyj/node-rpio#readme",
+  "dependencies": {
+    "rpio": "^0.9.20"
+  }
+}
