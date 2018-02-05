@@ -1,6 +1,6 @@
 let rpio = require('rpio');
 // 打开11号针脚作为输出
-rpio.open(11, rpio.OUTPUT);
+rpio.open(11, rpio.OUTPUT, rpio.LOW);
 
 function blink() {
     rpio.write(11, rpio.HIGH);
