@@ -10,3 +10,5 @@ function blink() {
 }
 
 setInterval(blink, 1000);
+
+console.log('rpio is run');
